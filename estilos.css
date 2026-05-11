@@ -8,6 +8,28 @@ html{
     scroll-behavior:smooth;
 }
 
+footer{
+    margin-top:4rem;
+
+    padding:2rem;
+
+    text-align:center;
+
+    background:rgba(10,10,10,.88);
+
+    border-top:.08rem solid rgba(173,140,75,.35);
+
+    color:#e5dcc8;
+
+    line-height:2;
+
+    font-size:clamp(.85rem, 2vw, 1rem);
+}
+
+footer strong{
+    color:#c9a45d;
+}
+
 body{
     font-family:Georgia, serif;
     color:#e5dcc8;
